@@ -20,33 +20,37 @@ if [[ $string2 == $string1 ]]; then
   echo "You guessed it right"
 else [[ $string2 != $string1 ]]
   read -p "That is incorrect, please guess again: " string3
-fi
+
 
 #user typing in the second guess
 if [ $string3 == $string1 ]; then
   echo "You guessed it right"
 else [ $string3 != $string1 ]
   read -p "That is incorrect, please guess again: " string4
-fi
+
 
 #user typing in the third guess
 if [ $string4 == $string1 ]; then
   echo "You guessed it right"
 else [ $string4 != $string1 ]
   read -p "That is incorrect, please guess again: " string5
-fi
+
 
 #user typing in the fourth guess
 if [ $string5 == $string1 ]; then
   echo "You guessed it right"
 else [ $string5 != $string1 ]
   read -p "That is incorrect, please guess again: " string6
-fi
+
 
 #user typing in fifth guesse
 if [ $string6 == $string1 ]; then
   echo "You guessed it right"
 else [ $string6 != $string1 ]
   echo "YOU FAILED!!"
+fi
+fi
+fi
+fi
 fi
 #done
